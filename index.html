@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee PPE Records</title>
+    <link rel="stylesheet" href="employee.css">
+    <link rel="icon" type="image/x-icon" href="/images/plane.png">
+</head>
+<header class="header">
+    <div>
+        <h1>IndiaOil <span style="color: red;">sky</span><span style="color: blue;">tanking</span></h1>
+    </div>
+</header>
+
+<body>
+    <div class="form1">
+        <h3>Employee PPE Records</h3>
+        <div class="input-data">
+            <label for="">Enter Employee I'D</label>
+            <input type="text" id="employeeIdInput" placeholder="Enter Employee ID">
+        </div>
+        <div class="btn-container">
+            <button class="btn" onclick="filterData()">Search</button>
+        </div>
+        <div>
+            <table id="ppeTable" border="1">
+                <thead>
+                    <tr>
+                        <th class="table-head">Issue Date</th>
+                        <th class="table-head">Employee ID</th>
+                        <th class="table-head">Employee Name</th>
+                        <th class="table-head">PPE Name</th>
+                        <th class="table-head">Next Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="employeeScript.js"></script>
+</body>
+<footer class="footer">
+    <p>Powered By Technical Raven &copy;Copyright2024</p>
+</footer>
+
+</html>

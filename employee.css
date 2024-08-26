@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    color: #ffff;
+}
+
+.form1 {
+    background-color: #041c3df2;
+    margin: 20px;
+    
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr ;
+      grid-template-rows: 1fr 1fr 1fr; */
+    padding-left: 10px;
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(244, 240, 240, 0.14), 0 6px 20px 0 rgba(247, 246, 246, 0.26);
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-right: 8px;
+    /* opacity: 80%; */
+    background-color: rgba(18, 43, 82, 0.555);
+
+}
+
+body {
+    /* background-color: #e5d6ee; */
+    background-image: url('images/bg.jpg');
+
+}
+
+h3 {
+    padding: 9px 15px;
+    color: #ffff;
+    /* background-color: #e5d6ee; */
+    margin: 25px 7px;
+    font-size: 30px;
+    padding-left: 5px;
+    /* grid-area: 1/1/1/-1; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 35px;
+}
+
+h1 span {
+    font-size: 35px;
+  }
+
+.header {
+    background-color: rgba(18, 43, 82, 0.555);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* opacity: 70%; */
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(18, 43, 82, 0.555);
+    padding: 18px;
+    margin-top: 10px;
+    color: #ffff;
+    margin-top: 275px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    grid-area: 4/1/-1/-1;
+}
+
+.btn {
+    background-color: green;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    margin: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.table-head{
+   padding: 10px 35px 15px 28px;
+}
+
+.form1 label {
+    color: #ffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: block;
+    opacity: 100%;
+  }
+
+  .form1 input {
+    background-color: #f8eff6e1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    text-transform: uppercase;
+    color: black;
+  
+  }
+  
+  .input-data {
+    display: block;
+    width: fit-content;
+    margin-right: 48px;
+    margin-bottom: 15px;
+    margin-left: 205px;
+  
+  }
+  
